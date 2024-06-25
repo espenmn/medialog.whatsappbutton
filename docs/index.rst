@@ -1,0 +1,5 @@
+=======================
+medialog.whatsappbutton
+=======================
+
+User documentation
