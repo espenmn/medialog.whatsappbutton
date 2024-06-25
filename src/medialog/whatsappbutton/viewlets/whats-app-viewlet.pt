@@ -1,3 +1,29 @@
-<div class="days_to_conf">
-    ${view/message}
-</div>
+ <script type="text/javascript" src="https://cdn.mvmcloud.net/mvm-wapp-3.1.1.min.js"></script>
+
+<div id="WAButton"></div>
+  <script type="text/javascript">
+  alert('hallo');
+      $('#WAButton').mvmWhatsApp({
+          cid: "Ade2aec28855422a9ec7b789723fcba2",
+          phone: "5511991234567",
+          headerTitle: "Talk to us by WhatsApp",
+          popupMessage: "Hi, tell me who you are so we can talk.",
+          showPopup: true,
+          headerColor: "#128C7E",
+          backgroundColor: "#25D366",
+          position: "right",
+          size: "60px",
+          useFirstLastName: true,
+          firstNameLabel: "First name",
+          lastNameLabel: "Last name",
+          emailLabel: "Email",
+          phoneLabel: "What is your WhatsApp number?",
+          phoneHint: "Enter the number with country and area code. E.g.: 5511991234567",
+          messageLabel: "Type your message to us",
+          errorMsg: "Please fill in the required fields",
+          btnSendText: "Start WhatsApp",
+          btnSendColor: "#128C7E",
+          requiredData: true,
+          buttonOffset: '70px',
+      });
+  </script>
