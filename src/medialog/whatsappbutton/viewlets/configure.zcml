@@ -8,7 +8,7 @@
 
   <browser:viewlet
      name="whats-app-viewlet"
-     for="plone.app.contenttypes.interfaces.IDocument"
+     for="*"
      manager="plone.app.layout.viewlets.interfaces.IAboveContentTitle"
      layer="medialog.whatsappbutton.interfaces.IMedialogWhatsappbuttonLayer"
      class=".whats_app_viewlet.WhatsAppViewlet"
