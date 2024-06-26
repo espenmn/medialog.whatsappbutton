@@ -9,6 +9,12 @@
       <value key="load_defer">False</value>
       <value key="depends">plone</value>
     </records>
+    <records interface="medialog.whatsappbutton.interfaces.ISettings">
+          <value key="phone"></value>
+          <value key="color"></value>
+     </records>  
 </registry>
 
+
+ 
  

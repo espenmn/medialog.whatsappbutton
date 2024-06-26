@@ -1,0 +1,75 @@
+ <script type="text/javascript" src="++plone++medialog.whatsappbutton/js/mvm-wapp-3.1.1.min.js"></script>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<a href="whatsapp://send?phone=14384766790" class="wfloat" target="_blank">
+<i class="fa fa-whatsapp my-float"></i>
+</a>
+
+
+<div id="WAButton"></div>
+  <script type="text/javascript">
+
+      $('#WAButton').mvmWhatsApp({
+          cid: "Ade2aec28855422a9ec7b789723fcba2",
+          phone: "5511991234567",
+          headerTitle: "Talk to us by WhatsApp",
+          popupMessage: "Hi, tell me who you are so we can talk.",
+          showPopup: true,
+          headerColor: "#128C7E",
+          backgroundColor: "#25D366",
+          position: "right",
+          size: "60px",
+          useFirstLastName: true,
+          firstNameLabel: "First name",
+          lastNameLabel: "Last name",
+          emailLabel: "Email",
+          phoneLabel: "What is your WhatsApp number?",
+          phoneHint: "Enter the number with country and area code. E.g.: 5511991234567",
+          messageLabel: "Type your message to us",
+          errorMsg: "Please fill in the required fields",
+          btnSendText: "Start WhatsApp",
+          btnSendColor: "#128C7E",
+          requiredData: true,
+          buttonOffset: '70px',
+      });
+  </script>
+
+
+
+  <a href="https://wa.me/5511991234567" class="whatsapp-button" target="_blank">
+    <img src="URL_TO_WHATSAPP_ICON" alt="WhatsApp" />xxxxxx Button here
+</a>
+
+<style>
+.whatsapp-button {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 1000;
+}
+.whatsapp-button img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.wfloat{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
+</style>
